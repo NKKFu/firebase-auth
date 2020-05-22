@@ -11,9 +11,12 @@ Aplicativo para testar a autenticação do Google Firebase Auth. Easy peasy 😋
 ## Todo List:
 
 - [x] Inicialização
-- [ ] Adicionar outros tipos de autenticação
-- [ ] Adicionar um botão para realizar a autenticação
+- [x] Realizar logout
+- [x] Adicionar um botão para realizar a autenticação
 - [ ] Mostrar quem está logado
-- [ ] Realizar logout
+- [ ] Adicionar outros tipos de autenticação
+- [ ] Adicionar bootstrap ao projeto
 
 ## Licensa MIT - Código Aberto
+
+[Licensa MIT](https://github.com/NKKFu/firebase-auth/blob/master/LICENSE)
