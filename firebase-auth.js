@@ -11,16 +11,32 @@ const firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-const provider = new firebase.auth.GoogleAuthProvider();
-provider.setCustomParameters({
-    prompt: 'select_account'
-});
+function setProvider(type) {
+    // You can set the language, or use auto lang
+    // firebase.auth().languageCode = 'pt';
+    firebase.auth().useDeviceLanguage();
 
-// You can set the language, or use auto lang
-// firebase.auth().languageCode = 'pt';
-firebase.auth().useDeviceLanguage();
+    switch (type) {
+        case 'google':
+            const googleMethod = new firebase.auth.GoogleAuthProvider();
+            login(googleMethod);
+            break;
+        case 'github':
+            const githubMethod = new firebase.auth.GithubAuthProvider();
+            githubMethod.addScope('repo');
+            login(githubMethod);
+            break;
+        default:
+            // Do nothing
+            break;
+    }
+}
 
-function login() {
+function login(provider) {
+    provider.setCustomParameters({
+        prompt: 'select_account'
+    });
+
     firebase.auth().signInWithPopup(provider).then((result) => {
         // This gives you a Google Access Token.
         const token = result.credential.accessToken;
@@ -40,7 +56,7 @@ function login() {
                 console.warn(`This problem occurs when your environment isn't on IP whitelist`);
                 break;
             default:
-                console.error(error);
+                console.warn(error);
                 break;
         }
     });
@@ -57,11 +73,14 @@ function logout() {
 }
 
 firebase.auth().onAuthStateChanged(function (user) {
+    const header = document.getElementById('header');
+
     if (user) {
         console.log(`User logged -> ${user.displayName}`);
     } else {
         console.log('User not logged');
     }
+    header.innerHTML = `Welcome back, ${user ? user.displayName : ''}`;
 
     /* Another proprieties */
     // name = user.displayName;
