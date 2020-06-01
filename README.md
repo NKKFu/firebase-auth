@@ -1,22 +1,26 @@
-# firebase-auth
+# 🔥 firebase-auth
  
 Aplicativo para testar a autenticação do Google Firebase Auth. Easy peasy 😋
 
-## Tecnologias:
+![print](https://i.ibb.co/p0r20mV/print1.png)
 
-- HTML & JS Vannilla
+## 🚀 Tecnologias:
+
+- ReactJS
+- Styled Components 💅
 - Firebase
 - Firebase Auth ([docs](https://firebase.google.com/docs/auth))
 
-## Todo List:
+## 📝 Todo List:
 
 - [x] Inicialização
 - [x] Realizar logout
 - [x] Adicionar um botão para realizar a autenticação
 - [x] Mostrar quem está logado
 - [x] Adicionar outros tipos de autenticação
-- [ ] Adicionar bootstrap ao projeto
+- [x] Adicionar ~~bootstrap~~ ReactJS ao projeto
+- [x] <b>Finalizado! 😸</b>
 
-## Licensa MIT - Código Aberto
+## 📃 License 
 
-[Licensa MIT](https://github.com/NKKFu/firebase-auth/blob/master/LICENSE)
+Projeto de código livre, [Licensa MIT](https://github.com/NKKFu/firebase-auth/blob/master/LICENSE).
