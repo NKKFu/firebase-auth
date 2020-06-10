@@ -1,5 +1,4 @@
 ![Repo size][repo-size]
-![Dependencies][dependencies]
 ![MIT License][license]
 
 <!-- PROJECT LOGO -->
@@ -113,8 +112,7 @@ Project Link: [https://github.com/NKKFu/firebase-auth](https://github.com/NKKFu/
 </h4>
 
 
-<!-- MARKDOWN LINKS & IMAGES -->	/depfu/:user/:repo
+<!-- MARKDOWN LINKS & IMAGES -->
 
-[dependencies]: https://img.shields.io/github/depfu/NKKFu/firebase-auth?style=flat-square
 [repo-size]: https://img.shields.io/github/repo-size/NKKFu/firebase-auth?style=flat-square
-[license]: https://github.com/NKKFu/firebase-auth/blob/master/LICENSE?style=flat-square
+[license]: https://img.shields.io/github/license/NKKFu/firebase-auth?style=flat-square 
