@@ -1,10 +1,6 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-
+![Repo size][repo-size]
+![Dependencies][dependencies]
+![MIT License][license]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -117,14 +113,8 @@ Project Link: [https://github.com/NKKFu/firebase-auth](https://github.com/NKKFu/
 </h4>
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/NKKFu/firebase-auth.svg?style=flat-square
-[contributors-url]: https://github.com/NKKFu/firebase-auth/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/NKKFu/firebase-auth.svg?style=flat-square
-[forks-url]: https://github.com/NKKFu/firebase-auth/network/members
-[stars-shield]: https://img.shields.io/github/stars/NKKFu/firebase-auth.svg?style=flat-square
-[stars-url]: https://github.com/NKKFu/firebase-auth/stargazers
-[issues-shield]: https://img.shields.io/github/issues/NKKFu/firebase-auth.svg?style=flat-square
-[issues-url]: https://github.com/NKKFu/firebase-auth/issues
-[license-shield]: https://img.shields.io/github/license/NKKFu/firebase-auth.svg?style=flat-square
-[license-url]: https://github.com/NKKFu/firebase-auth/blob/master/LICENSE.txt
+<!-- MARKDOWN LINKS & IMAGES -->	/depfu/:user/:repo
+
+[dependencies]: https://img.shields.io/github/depfu/NKKFu/firebase-auth?style=flat-square
+[repo-size]: https://img.shields.io/github/repo-size/NKKFu/firebase-auth?style=flat-square
+[license]: https://github.com/NKKFu/firebase-auth/blob/master/LICENSE?style=flat-square
